@@ -86,3 +86,8 @@ class Dog extends Animal {
         System.out.println("This dog barks.");
     }
 }
+
+// Create a Shape interface and implement it in Circle and Rectangle classes.
+interface Shape {
+    double area();
+}
