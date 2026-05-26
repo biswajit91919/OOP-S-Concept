@@ -73,3 +73,16 @@ class BankAccount {
         return balance;
     }
 }
+
+//Create Animal and Dog classes using inheritance.
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("This dog barks.");
+    }
+}
